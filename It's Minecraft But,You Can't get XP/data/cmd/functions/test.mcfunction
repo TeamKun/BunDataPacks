@@ -1,0 +1,2 @@
+execute as @a at @s if entity @e[type=!player,type=!item,type=!experience_orb,type=!experience_bottle,type=!minecraft:minecart,type=!minecraft:boat,distance=..3] run kill @s
+execute as @a at @s if entity @e[type=!player,type=!item,type=!experience_orb,type=!experience_bottle,type=!minecraft:minecart,type=!minecraft:boat,distance=..3] run tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":" got close to a mob"}]}
